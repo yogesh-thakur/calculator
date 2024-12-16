@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <link rel="stylesheet" href="calculator.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <form>
+          <div class="display">
+            <input id="inputbox" type="text" placeholder="0" name="display" disabled/>
+          </div>
+          <div>
+            <button type="button" id="clear" class="operator">AC</button>
+            <button type="button" id="del" class="operator">DE</button>
+            <button type="button" id="per" class="operator" >%</button>
+            <button type="button" id="div" class="operator" >/</button>
+          </div>
+          <div>
+            <button type="button" id="sev" >7</button>
+            <button type="button" id="eig" >8</button>
+            <button type="button" id="nin" >9</button>
+            <button type="button" id="multi" class="operator">*</button>
+          </div>
+          <div>
+            <button type="button" id="for">4</button>
+            <button type="button" id="fiv">5</button>
+            <button type="button" id="six">6</button>
+            <button type="button" id="min" class="operator">-</button>
+          </div>
+          <div>
+            <button type="button" id="one">1</button>
+            <button type="button" id="two">2</button>
+            <button type="button" id="thr">3</button>
+            <button type="button" id="plu" class="operator" >+</button>
+          </div>
+          <div>
+            <button type="button" id="db-ze" >00</button>
+            <button type="button" id="ze">0</button>
+            <button type="button" id="point" class="operator" >.</button>
+            <button type="button" id="ans" class="operator equal">=</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
